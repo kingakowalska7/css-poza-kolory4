@@ -1,0 +1,98 @@
+body {
+    background-color:grey;
+  }
+  
+  .large-square {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .square {
+    width: 32.5%;
+    height: 32.5%;
+    position: absolute;
+  }
+  
+  .circle {
+    width: 50%;
+    height: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .gray {
+    background-color: gray;
+  }
+  
+  .pink {
+    background-color: pink;
+  }
+  
+  .column1 {
+    left: 2px;
+  }
+  
+  .column2 {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .column3 {
+    right: 2px;
+  }
+  
+  .row1 {
+    top: 2px;
+  }
+  
+  .row2 {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .row3 {
+    bottom: 2px;
+  }
+  
+  .center {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 0;
+  }
